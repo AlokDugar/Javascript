@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            position: relative;
+            width: max-content;
+        }
+
+        .container i {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .error {
+            border: 2px solid red;
+        }
+
+        .success {
+            border: 2px solid green;
+        }
+
+        .blue-text {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde inventore assumenda delectus neque
+        excepturi ex natus, et dolores similique itaque praesentium aliquam iusto animi deleniti aperiam rerum alias
+        facilis ea.</p>
+
+    <button id="but" onclick="changeClr()">RED</button><br>
+
+    <img src="" alt="No image" id="img"><br>
+
+    <button id="addimage" onclick="addImage()">Display</button><br>
+
+    <div class="container">
+        <input type="password" name="password" id="password" onkeyup="checkPass()">
+        <i class="fa-solid fa-eye" onclick="showPass()" id="pass_img"></i>
+    </div>
+
+    <input type="password" name="cpassword" id="cpassword" onkeyup="checkPass()">
+    <div class="text-box">
+        <span>I am</span>
+        <span class="blue-text" id="addAnim"></span>
+    </div>
+    <button id="rem_but" onclick="showText()">Remove in sequence</button>
+    <script src="./change_clr.js"></script>
+
+</body>
+
+</html>
