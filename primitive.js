@@ -14,4 +14,4 @@ console.log(e);
 console.log(f);
 console.log(g);
 console.log(e + h);
-console.log(typeof f); // typeof gives type of data f
+console.log(typeof f); // typeof gives type of data in variable f
