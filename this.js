@@ -4,7 +4,7 @@ const person = {
     add: 'Sano Gaucharan',
     age: 20,
     does_Alok_exist: true,
-    hello:()=>console.log(`Hi! My name is ${this.name}`)
+    hello:function(){console.log(`Hi! My name is ${this.name}`)}
   };
 person.hello()
 console.log(this)
