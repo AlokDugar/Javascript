@@ -7,3 +7,4 @@ const person = {
     hello:()=>console.log(`Hi! My name is ${this.name}`)
   };
 person.hello()
+console.log(this)
