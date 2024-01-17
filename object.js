@@ -12,3 +12,4 @@ console.log('Address: ' + person['add']);
 console.log('Age: ' + person['age']);
 console.log(person['does_Alok_exist']);
 console.log(person['college_name']);
+console.log('Name:'+person.name)
