@@ -7,6 +7,7 @@ for(let i=1;i<=3;i++){
     if(r===g){
         console.log("Guessed");
         f=1
+        break
     }
     if(r<g){
         console.log("High");
