@@ -1,0 +1,22 @@
+#exp{
+   display: block; 
+   background-color: black;
+   color: white;
+}
+.cal{
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 10px;
+    background-color: black;
+}
+.but{
+   margin-top: 5px;
+   display: grid;
+   grid-column: 4;
+}
+button{
+    max-width: 30px;
+    border-radius: 20px;
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
